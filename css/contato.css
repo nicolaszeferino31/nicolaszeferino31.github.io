@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* aqui zero todo o documento da minha html como margin e padding*/
+
+                /*Nicolas Zeferino RU: 4253376*/ 
+
+form{
+    text-align: center;
+    padding-top: 20px;
+    
+} /*aqui centralizo todo o meu formulario no centro da pagina e dou um espaçamento de 20px do topo da pagina*/
+
+form input[type=text]{
+    padding:10px 13px;
+    width:30%;
+    margin-top: 30px;
+    border: 2px solid black;
+} /* aqui chamo meu input especificando atravé dos[]*o tipo de input que quero atacar como ali esta o input type=text e aplico a estilização que eu quero*/
+
+
+form input[type=number]{
+    margin-top: 10px;
+    padding:10px 13px;
+    width:30%;
+    border: 2px solid black;
+ }/* aqui chamo meu input especificando atravé dos[]*o tipo de input que quero atacar como ali esta o input type=number e aplico a estilização que eu quero*/
+
+form input[type=email]{
+    margin-top: 10px;
+    padding:10px 13px;
+    width:30%;
+    border: 2px solid black;
+}/* aqui chamo meu input especificando atravé dos[] o tipo de input que quero atacar como ali esta o input type=email e aplico a estilização que eu quero*/
+
+form input[type=submit]{
+    margin-top: 10px;
+    padding:10px 13px;
+    width:15%;
+    border: 2px solid black;
+} /* aqui chamo meu input especificando atravé dos[]*o tipo de input que quero atacar como ali esta o input type=submit e aplico a estilização que eu quero*/
+
+
+
+textarea{
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+} /* aqui chamo minha caixa de texto e aplico a estilização que quero nela*/
+
+textarea:focus{
+    outline: 0;
+} /* aqui chamo minha caixa de texto e aplico o focus outline: 0; ele remove a borda do elemento quando a caixa é selecionada, ou seja nao acontece nada, pois por padrao do brownser é adcionar uma borda na caixa quando clicamos nela */
+
+body{
+    background-image: url(../imagem/placa\ de\ sircuito.jpg);
+    background-size: cover;
+} /* aqui adciono uma imagem de fundo no meu body e aplico o background-size: cover; onde a imagem ocupa todo o corpo da minha pagina*/
+
+form input[type=text]:focus{
+    outline: 0;
+} /*aqui chamo minha caixa do tipo texto e aplico o focus outline: 0; ele remove a borda do elemento quando a caixa é selecionada, ou seja nao acontece nada, pois por padrao do brownser é adcionar uma borda na caixa quando clicamos nela */
+
+form input[type=number]:focus{
+    outline: 0;
+} /*aqui chamo minha caixa do tipo numero e aplico o focus outline: 0; ele remove a borda do elemento quando a caixa é selecionada, ou seja nao acontece nada, pois por padrao do brownser é adcionar uma borda na caixa quando clicamos nela */
+
+form input[type=email]:focus{
+    outline: 0;
+} /*aqui chamo minha caixa do tipo e-mail e aplico o focus outline: 0; ele remove a borda do elemento quando a caixa é selecionada, ou seja nao acontece nada, pois por padrao do brownser é adcionar uma borda na caixa quando clicamos nela */
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color:red;
+} /* aqui chamo meu h1 centralizo ele no centro aplico cor e dou uma margin do topo de 50px*/
+ 
+
+ 

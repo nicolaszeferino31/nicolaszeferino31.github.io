@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+} /*essa tag pega todo o margin eo paddin da minha pagina html e zera ele*/ 
+
+           /* Nicolas zeferino RU:4253376*/
+body{
+   background-image: url(../imagem/placa\ de\ sircuito.jpg);
+    background-size: cover;
+} /*  aqui estou atacando minha tag body e aplicando uma imagem de fundo e com o background-size:cover faço que a imagem acupe toda minha pagina html*/
+
+
+.div1{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+    color:red;
+    font-size: 20px;
+} /*aqui consigo posicionar todo o texto dentro da minha div1 onde quero na pagina html*/
+    
+ .div2{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10px;
+    color:red;
+    font-size: 20px;
+} /*aqui consigo posicionar todo o texto dentro da minha div1 onde quero na minha pagina html*/
+
+.div3{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10px;
+    color: red;
+    font-size: 20px;
+} /*aqui consigo posicionar todo o texto dentro da minha div1 onde quero na minha pagina html*/
+
+
+.p1{
+    margin-left: 20px;
+    
+ } /* aqui consigo dar espaçamento entre um texto e outro chamando meu p1 através da classe="p1" atribuida no documento html*/
+
+ 
+.p2{
+    margin-left: 181px;
+} /* aqui consigo dar espaçamento entre um texto e outro chamando meu p2 através da classe="p1" atribuida no documento html*/
+
+.p3{
+    margin-left: 177px;
+ } /* aqui consigo dar espaçamento entre um texto e outro chamando meu p3 através da classe="p1" atribuida no documento html*/
+
+ .p4{
+    margin-left: 194px;
+ } /* aqui consigo dar espaçamento entre um texto e outro chamando meu p4 através da classe="p1" atribuida no documento html*/
+
+ h1{
+    margin-top: 50px;
+    text-align: center;
+    color: red;
+ } /* aqui chamo meu h1 para estilizar ele dando cor, centralizando no centro e dando margin no topo do documento*/

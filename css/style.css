@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /*essa tag pega todo o margin eo paddin da minha pagina html e zera ele*/ 
+
+  /* Nicolas zeferino RU:4253376*/
+
+.menu{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    border-style:outset;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 150px;
+} /* aqui estou chamando meu menu através da div .menu assim posso estilizar meu menu */
+
+.gif{
+  margin-top: 50px;
+  text-align: center;
+} /* aqui estou chamando minha gif através da div .gif onde posso estilizar minha gif como quero*/
+
+
+.menu a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 55px;
+    font-size: 25px;
+} /* aqui estou chamando todos os meus links através da div .menu seguido do (a) para dizer que quero atacar todos os links dentro da minha div menu e estilizar eles como quero*/
+
+
+a:hover{
+    font-size: 30px;
+    color: red;
+} /* aqui estou chmando meus links e aplicando um hover que quando passo o mouse em cima de algum link ele dobra de tamanho e muda de cor através do font-size e color */
+
+ body{
+   background-image: url(../imagem/placa\ de\ sircuito.jpg);
+   background-size: cover;
+ } /*  aqui estou atacando minha tag body e aplicando uma imagem de fundo e com o background-size:cover faço que a imagem acupe toda minha pagina html*/

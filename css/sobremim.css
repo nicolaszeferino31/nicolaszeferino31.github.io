@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+} /*essa tag pega todo o margin e o padding da minha pagina html e zera ele*/
+
+           /* Nicolas zeferino RU:4253376 */
+ .div1{
+    text-align: center; 
+    margin-top: 30px;
+ } /* coloquei minha imagem dentro de uma div por ser um elemento em bloco, assim consigo mais facilmente aplicar algumas estilizações nela como centralizar e dar uma margin do topo do site*/
+
+ body{
+    background-image: url(../imagem/placa\ de\ sircuito.jpg);
+    background-size: cover;
+ } /* aqui estou atacando o body e aplicando uma imagem de fundo e com o background-size:cover faço que a imagem acupe toda minha pagina html  */
+
+ p{
+   text-align: center;
+   margin:50px;
+   font-size: 20px;
+   color: yellow;
+ } /*  aqui estou chamando minha tag p para tribuir uma cor no texto aumentar o tamanho da letra e aplicar uma margin direita esquerda cima baixo de 50px*/
+
+ img{
+   border-radius: 20px;
+   
+ } /* aqui chamo minha img onde está minha imagem e aplico uma borda arredondada nos cantos da minha imagem*/
